@@ -1,8 +1,8 @@
 import os
 from openai import OpenAI
-from dotenv import load_dotenv
 import base64
-load_dotenv()
+
+# streamlit Cloud 환경에서는 dotenv대신, streamlit의 secret 기능 사용
 
 client = OpenAI()
 
